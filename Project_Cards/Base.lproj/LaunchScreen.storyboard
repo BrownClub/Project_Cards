@@ -30,7 +30,7 @@
                                 <rect key="frame" x="180" y="293" width="240" height="128"/>
                                 <state key="normal" title="JOIN GAME"/>
                                 <connections>
-                                    <segue destination="j0n-ip-nAG" kind="show" id="ftu-YT-gqe"/>
+                                    <segue destination="j0n-ip-nAG" kind="push" id="pQ8-NQ-orB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdj-Dg-kLh">
@@ -157,6 +157,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="wE3-0Z-DrV"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8RI-Sf-bTX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
